@@ -158,7 +158,7 @@ $utilities: map-merge(
         100: 100%,
         auto: auto
       )
-    ),        
+    ),
     "max-width": (
       property: max-width,
       class: mw,
@@ -183,14 +183,6 @@ $utilities: map-merge(
         75: 75%,
         100: 100%,
         auto: auto
-      )
-    ),
-    // myCustom
-    "height-custom": (
-      property: height,
-      class: h-c,
-      values: (
-        40: 40px
       )
     ),
     "max-height": (
@@ -631,18 +623,8 @@ $utilities: map-merge(
         visible: visible,
         invisible: hidden,
       )
-    ),
-    // scss-docs-end utils-visibility
-    // 
-    "z-index": (
-      responsive: true,
-      property: z-index,
-      class: z,
-      values: (
-        "n": -1
-      )
     )
-    // 
+    // scss-docs-end utils-visibility
   ),
   $utilities
 );

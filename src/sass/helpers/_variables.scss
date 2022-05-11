@@ -80,15 +80,17 @@ $dark: $gray-900 !default;
 // scss-docs-start theme-colors-map
 $theme-colors: (
   'primary': #56c4c5,
-  // myCustom $primary,
-  'secondary': $secondary,
+  //$primary,
+  'secondary': #f5ca52,
+  //$secondary,
+  'third': #ff5d50,
+  //$secondary,
   'success': $success,
   'info': $info,
   'warning': $warning,
   'danger': $danger,
   'light': $light,
   'dark': $dark,
-  'orange': #ff5d50,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -385,9 +387,7 @@ $spacers: (
   2: $spacer * 0.5,
   3: $spacer,
   4: $spacer * 1.5,
-  5: $spacer * 2,
-  6: $spacer * 2.5,
-  7: $spacer * 3,
+  5: $spacer * 3,
 ) !default;
 
 $negative-spacers: if(
@@ -507,8 +507,8 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1088px,
-  xxl: 1088px,
+  xl: 1140px,
+  xxl: 1320px,
 ) !default;
 // scss-docs-end container-max-widths
 
@@ -631,19 +631,12 @@ $h6-font-size: $font-size-base !default;
 
 // scss-docs-start font-sizes
 $font-sizes: (
-  1: $font-size-base * 3,
-  2: $font-size-base * 2,
-  3: $font-size-base * 1.5,
-  4: $font-size-base * 1.25,
-  5: $font-size-base * 1.125,
-  6: $font-size-base * 1,
-  7: $font-size-base * 0.75,
-  // 1: $h1-font-size,
-  // 2: $h2-font-size,
-  // 3: $h3-font-size,
-  // 4: $h4-font-size,
-  // 5: $h5-font-size,
-  // 6: $h6-font-size,,,,,,,,,,,,,,,,
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
 ) !default;
 // scss-docs-end font-sizes
 
