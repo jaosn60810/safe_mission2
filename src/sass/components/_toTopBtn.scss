@@ -1,0 +1,11 @@
+.toTopBtn {
+  width: 71px;
+  height: 71px;
+}
+
+@include media-breakpoint-down(lg) {
+  .toTopBtn {
+    width: 50px;
+    height: 50px;
+  }
+}

@@ -121,6 +121,7 @@ $utilities: map-merge(
       )
     ),
     "border-bottom": (
+      responsive: true,
       property: border-bottom,
       values: (
         null: $border-width solid $border-color,
@@ -623,8 +624,17 @@ $utilities: map-merge(
         visible: visible,
         invisible: hidden,
       )
-    )
+    ),
     // scss-docs-end utils-visibility
+    // myCustom
+    "z-index": (
+      responsive: true,
+      property: z-index,
+      class: z,
+      values: (
+        '-1': -1,
+      )
+    ),
   ),
   $utilities
 );
