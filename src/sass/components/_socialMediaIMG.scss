@@ -1,0 +1,11 @@
+.socialMediaIMG {
+  width: 90px;
+  height: 90px;
+}
+
+@include media-breakpoint-down(lg) {
+  .socialMediaIMG {
+    width: 60px;
+    height: 60px;
+  }
+}

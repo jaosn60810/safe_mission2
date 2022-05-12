@@ -344,7 +344,7 @@ $utilities: map-merge(
       property: margin-bottom,
       class: mb,
       values: map-merge($spacers, (auto: auto))
-    ),
+    ),    
     "margin-start": (
       responsive: true,
       property: margin-left,
@@ -591,6 +591,7 @@ $utilities: map-merge(
         1: $border-radius-sm,
         2: $border-radius,
         3: $border-radius-lg,
+        4: .75rem,
         circle: 50%,
         pill: $border-radius-pill
       )
@@ -598,7 +599,10 @@ $utilities: map-merge(
     "rounded-top": (
       property: border-top-left-radius border-top-right-radius,
       class: rounded-top,
-      values: (null: $border-radius)
+      values: (
+        null: $border-radius,
+        4: .75rem,
+        )
     ),
     "rounded-end": (
       property: border-top-right-radius border-bottom-right-radius,
