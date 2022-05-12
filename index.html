@@ -17,19 +17,10 @@
   </head>
   <body>
     <section class="min-vh-100 position-relative">
-      <img
-        src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball01.svg"
-        alt="ball01"
-        class="position-absolute top-100 start-0 translate-middle d-none d-lg-block"
-      />
-      <img
-      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/bg_home.svg"
-      alt=bg_home"" class="position-absolute top-0 end-0 z--1 vh-100 d-none
-      d-lg-block" />
+      <!-- 導覽列 -->
       <div class="container">
-        <nav
-          class="navbar mb-4 border-bottom border-bottom-lg-0 border-secondary"
-        >
+        <nav class="navbar py-3 py-lg-4">
+          <!-- Logo -->
           <a href="#">
             <img
               src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/logo.png"
@@ -38,29 +29,56 @@
             />
           </a>
 
+          <!-- 按鈕 -->
           <a class="btn btn-third rounded-pill link-light px-4 py-2" href="#"
             >方案費用</a
           >
         </nav>
+      </div>
 
+      <!-- 手機板 - 導覽列下方邊線 -->
+      <div class="border border-lg-0 border-secondary mb-5"></div>
+
+      <!-- header -->
+      <div class="container">
         <header class="row row-cols-1 row-cols-lg-2 align-items-center">
+          <!-- header 文字 -->
           <div class="col">
             <h1 class="h5 text-primary fw-bold">
               ChatTalker 最全面的聊天機器人
             </h1>
-            <h3 class="display-5 fw-bold lh-base">你愛我像誰？</h3>
+            <h3 class="display-5 fw-bold lh-base mb-0">你愛我像誰？</h3>
             <h3 class="display-5 fw-bold lh-base mb-3">扮演什麼角色我都會</h3>
             <h2 class="h5">Facebook、Instagram、LINE 聊天機器人解決方案</h2>
           </div>
-          <div class="col">
+
+          <!-- header 圖片 -->
+          <div class="col position-relative">
             <img
               src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/home.svg"
-              alt=""
+              alt="header img"
               class="img-fluid"
+            />
+            <img
+              src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/bg_home_sm.svg"
+              alt="header img"
+              class="img-fluid d-lg-none position-absolute bottom-0 start-50 translate-middle-x z--1"
             />
           </div>
         </header>
       </div>
+
+      <!-- 背景圓形 -->
+      <img
+        src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball01.svg"
+        alt="ball01"
+        class="position-absolute top-100 start-0 translate-middle d-none d-lg-block"
+      />
+      <!-- 背景不規則形 -->
+      <img
+      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/bg_home.svg"
+      alt=bg_home"" class="position-absolute top-0 end-0 z--1 vh-100 d-none
+      d-lg-block" />
     </section>
 
     <section class="min-vh-100 position-relative bg-danger">
@@ -111,6 +129,7 @@
       </div>
     </section>
 
+    <!-- 回到上方按鈕 -->
     <a
       href="#"
       class="btn btn-primary rounded-circle link-light position-fixed toTopBtn bottom-10 end-10 fs-4 fw-bold toTopBtn d-flex justify-content-center align-items-center"

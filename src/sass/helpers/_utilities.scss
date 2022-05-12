@@ -99,6 +99,7 @@ $utilities: map-merge(
     // scss-docs-end utils-position
     // scss-docs-start utils-borders
     "border": (
+      responsive: true,
       property: border,
       values: (
         null: $border-width solid $border-color,
@@ -120,8 +121,7 @@ $utilities: map-merge(
         0: 0,
       )
     ),
-    "border-bottom": (
-      responsive: true,
+    "border-bottom": (      
       property: border-bottom,
       values: (
         null: $border-width solid $border-color,
