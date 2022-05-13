@@ -13986,3 +13986,15 @@ textarea.form-control-lg {
           transform: scaleX(1.6);
   background-color: #f5ca52;
 }
+
+.bgImage {
+  -webkit-transform: translate(12vw, 10vh);
+          transform: translate(12vw, 10vh);
+}
+
+@media (max-width: 991.98px) {
+  .bgImage {
+    -webkit-transform: translate(-50%, 50%);
+            transform: translate(-50%, 50%);
+  }
+}

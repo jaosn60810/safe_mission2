@@ -233,9 +233,9 @@
 
       <!-- 背景圓形 -->
       <img
-        src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball01.svg"
-        alt="ball01"
-        class="position-absolute top-100 start-100 translate-middle d-none d-lg-block w-25 opacity-50 z--1"
+        src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball02.svg"
+        alt="ball02"
+        class="position-absolute top-100 start-100 translate-middle d-none d-lg-block w-25 z--1"
       />
     </section>
 
@@ -352,19 +352,20 @@
 
       <!-- 背景圓形 -->
       <img
-        src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball01.svg"
-        alt="ball01"
-        class="position-absolute top-0 start-100 translate-middle d-none d-lg-block w-25 opacity-50 z--1"
+        src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball02.svg"
+        alt="ball02"
+        class="position-absolute top-0 start-100 translate-middle d-none d-lg-block z--1 w-25"
       />
     </section>
 
     <!-- 好評如潮 -->
-    <section class="py-5 py-lg-7">
+    <section class="py-5 py-lg-7 position-relative">
       <h2 class="fw-bold text-center mb-5 mb-lg-7">好評如潮</h2>
 
+      <!-- 桌機板 輪播 -->
       <div
         id="carouselExampleIndicators"
-        class="carousel slide"
+        class="carousel slide d-none d-lg-block"
         data-bs-ride="carousel"
       >
         <div class="carousel-indicators">
@@ -398,682 +399,939 @@
             class="mx-2"
           ></button>
         </div>
-        <div class="carousel-inner p-7">
-          <div class="container">
-            <div class="carousel-item active">
-              <ul
-                class="row row-cols-1 row-cols-lg-3 list-unstyled flex-nowrap gx-3"
-              >
-                <!-- 清心寡慾設計公司 -->
-                <li class="col">
-                  <div
-                    class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
-                  >
-                    <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
-                      原來聊天機器人可以這麼有人性！團隊有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。
-                    </p>
-                    <p class="fw-bold">清心寡慾設計公司</p>
-                    <div class="d-flex justify-content-between">
-                      <p>Lina 執行長</p>
-                      <ul class="list-unstyled d-flex">
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                      </ul>
-                    </div>
-
-                    <!-- 頭貼 -->
-                    <img
-                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user01.jpg"
-                      alt="user01"
-                      class="position-absolute rounded-circle avatar"
-                    />
+        <ul class="carousel-inner py-7 container">
+          <li class="carousel-item active">
+            <ul
+              class="row row-cols-1 row-cols-lg-3 list-unstyled flex-nowrap gx-3"
+            >
+              <!-- 清心寡慾設計公司 -->
+              <li class="col">
+                <div
+                  class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+                >
+                  <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                    原來聊天機器人可以這麼有人性！團隊有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。
+                  </p>
+                  <p class="fw-bold">清心寡慾設計公司</p>
+                  <div class="d-flex justify-content-between">
+                    <p>Lina 執行長</p>
+                    <ul class="list-unstyled d-flex">
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                    </ul>
                   </div>
-                </li>
 
-                <!-- subwhat 行銷公司 -->
-                <li class="col">
-                  <div
-                    class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
-                  >
-                    <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
-                      團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高10000個追蹤者，客戶體驗回饋很正面！
-                    </p>
-                    <p class="fw-bold">subwhat 行銷公司</p>
-                    <div class="d-flex justify-content-between">
-                      <p>Zoe 活動長</p>
-                      <ul class="list-unstyled d-flex">
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                      </ul>
-                    </div>
+                  <!-- 頭貼 -->
+                  <img
+                    src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user01.jpg"
+                    alt="user01"
+                    class="position-absolute rounded-circle avatar"
+                  />
+                </div>
+              </li>
 
-                    <!-- 頭貼 -->
-                    <img
-                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user02.jpg"
-                      alt="user02"
-                      class="position-absolute rounded-circle avatar"
-                    />
+              <!-- subwhat 行銷公司 -->
+              <li class="col">
+                <div
+                  class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+                >
+                  <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                    團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高10000個追蹤者，客戶體驗回饋很正面！
+                  </p>
+                  <p class="fw-bold">subwhat 行銷公司</p>
+                  <div class="d-flex justify-content-between">
+                    <p>Zoe 活動長</p>
+                    <ul class="list-unstyled d-flex">
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                    </ul>
                   </div>
-                </li>
 
-                <!-- 油土伯 -->
-                <li class="col">
-                  <div
-                    class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
-                  >
-                    <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
-                      經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～
-                    </p>
-                    <p class="fw-bold">油土伯</p>
-                    <div class="d-flex justify-content-between">
-                      <p>HowBig</p>
-                      <ul class="list-unstyled d-flex">
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                      </ul>
-                    </div>
+                  <!-- 頭貼 -->
+                  <img
+                    src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user02.jpg"
+                    alt="user02"
+                    class="position-absolute rounded-circle avatar"
+                  />
+                </div>
+              </li>
 
-                    <!-- 頭貼 -->
-                    <img
-                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user03.jpg"
-                      alt="user03"
-                      class="position-absolute rounded-circle avatar"
-                    />
+              <!-- 油土伯 -->
+              <li class="col">
+                <div
+                  class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+                >
+                  <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                    經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～
+                  </p>
+                  <p class="fw-bold">油土伯</p>
+                  <div class="d-flex justify-content-between">
+                    <p>HowBig</p>
+                    <ul class="list-unstyled d-flex">
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                    </ul>
                   </div>
-                </li>
-              </ul>
-            </div>
 
-            <div class="carousel-item">
-              <ul
-                class="row row-cols-1 row-cols-lg-3 list-unstyled flex-nowrap gx-3"
-              >
-                <!-- 清心寡慾設計公司 -->
-                <li class="col">
-                  <div
-                    class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
-                  >
-                    <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
-                      原來聊天機器人可以這麼有人性！團隊有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。
-                    </p>
-                    <p class="fw-bold">清心寡慾設計公司</p>
-                    <div class="d-flex justify-content-between">
-                      <p>Lina 執行長</p>
-                      <ul class="list-unstyled d-flex">
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                      </ul>
-                    </div>
+                  <!-- 頭貼 -->
+                  <img
+                    src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user03.jpg"
+                    alt="user03"
+                    class="position-absolute rounded-circle avatar"
+                  />
+                </div>
+              </li>
+            </ul>
+          </li>
 
-                    <!-- 頭貼 -->
-                    <img
-                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user01.jpg"
-                      alt="user01"
-                      class="position-absolute rounded-circle avatar"
-                    />
+          <li class="carousel-item">
+            <ul
+              class="row row-cols-1 row-cols-lg-3 list-unstyled flex-nowrap gx-3"
+            >
+              <!-- 清心寡慾設計公司 -->
+              <li class="col">
+                <div
+                  class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+                >
+                  <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                    原來聊天機器人可以這麼有人性！團隊有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。
+                  </p>
+                  <p class="fw-bold">清心寡慾設計公司</p>
+                  <div class="d-flex justify-content-between">
+                    <p>Lina 執行長</p>
+                    <ul class="list-unstyled d-flex">
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                    </ul>
                   </div>
-                </li>
 
-                <!-- subwhat 行銷公司 -->
-                <li class="col">
-                  <div
-                    class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
-                  >
-                    <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
-                      團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高10000個追蹤者，客戶體驗回饋很正面！
-                    </p>
-                    <p class="fw-bold">subwhat 行銷公司</p>
-                    <div class="d-flex justify-content-between">
-                      <p>Zoe 活動長</p>
-                      <ul class="list-unstyled d-flex">
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                      </ul>
-                    </div>
+                  <!-- 頭貼 -->
+                  <img
+                    src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user01.jpg"
+                    alt="user01"
+                    class="position-absolute rounded-circle avatar"
+                  />
+                </div>
+              </li>
 
-                    <!-- 頭貼 -->
-                    <img
-                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user02.jpg"
-                      alt="user02"
-                      class="position-absolute rounded-circle avatar"
-                    />
+              <!-- subwhat 行銷公司 -->
+              <li class="col">
+                <div
+                  class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+                >
+                  <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                    團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高10000個追蹤者，客戶體驗回饋很正面！
+                  </p>
+                  <p class="fw-bold">subwhat 行銷公司</p>
+                  <div class="d-flex justify-content-between">
+                    <p>Zoe 活動長</p>
+                    <ul class="list-unstyled d-flex">
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                    </ul>
                   </div>
-                </li>
 
-                <!-- 油土伯 -->
-                <li class="col">
-                  <div
-                    class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
-                  >
-                    <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
-                      經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～
-                    </p>
-                    <p class="fw-bold">油土伯</p>
-                    <div class="d-flex justify-content-between">
-                      <p>HowBig</p>
-                      <ul class="list-unstyled d-flex">
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                      </ul>
-                    </div>
+                  <!-- 頭貼 -->
+                  <img
+                    src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user02.jpg"
+                    alt="user02"
+                    class="position-absolute rounded-circle avatar"
+                  />
+                </div>
+              </li>
 
-                    <!-- 頭貼 -->
-                    <img
-                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user03.jpg"
-                      alt="user03"
-                      class="position-absolute rounded-circle avatar"
-                    />
+              <!-- 油土伯 -->
+              <li class="col">
+                <div
+                  class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+                >
+                  <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                    經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～
+                  </p>
+                  <p class="fw-bold">油土伯</p>
+                  <div class="d-flex justify-content-between">
+                    <p>HowBig</p>
+                    <ul class="list-unstyled d-flex">
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                    </ul>
                   </div>
-                </li>
-              </ul>
-            </div>
 
-            <div class="carousel-item">
-              <ul
-                class="row row-cols-1 row-cols-lg-3 list-unstyled flex-nowrap gx-3"
-              >
-                <!-- 清心寡慾設計公司 -->
-                <li class="col">
-                  <div
-                    class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
-                  >
-                    <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
-                      原來聊天機器人可以這麼有人性！團隊有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。
-                    </p>
-                    <p class="fw-bold">清心寡慾設計公司</p>
-                    <div class="d-flex justify-content-between">
-                      <p>Lina 執行長</p>
-                      <ul class="list-unstyled d-flex">
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                      </ul>
-                    </div>
+                  <!-- 頭貼 -->
+                  <img
+                    src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user03.jpg"
+                    alt="user03"
+                    class="position-absolute rounded-circle avatar"
+                  />
+                </div>
+              </li>
+            </ul>
+          </li>
 
-                    <!-- 頭貼 -->
-                    <img
-                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user01.jpg"
-                      alt="user01"
-                      class="position-absolute rounded-circle avatar"
-                    />
+          <li class="carousel-item">
+            <ul
+              class="row row-cols-1 row-cols-lg-3 list-unstyled flex-nowrap gx-3"
+            >
+              <!-- 清心寡慾設計公司 -->
+              <li class="col">
+                <div
+                  class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+                >
+                  <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                    原來聊天機器人可以這麼有人性！團隊有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。
+                  </p>
+                  <p class="fw-bold">清心寡慾設計公司</p>
+                  <div class="d-flex justify-content-between">
+                    <p>Lina 執行長</p>
+                    <ul class="list-unstyled d-flex">
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                    </ul>
                   </div>
-                </li>
 
-                <!-- subwhat 行銷公司 -->
-                <li class="col">
-                  <div
-                    class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
-                  >
-                    <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
-                      團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高10000個追蹤者，客戶體驗回饋很正面！
-                    </p>
-                    <p class="fw-bold">subwhat 行銷公司</p>
-                    <div class="d-flex justify-content-between">
-                      <p>Zoe 活動長</p>
-                      <ul class="list-unstyled d-flex">
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                      </ul>
-                    </div>
+                  <!-- 頭貼 -->
+                  <img
+                    src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user01.jpg"
+                    alt="user01"
+                    class="position-absolute rounded-circle avatar"
+                  />
+                </div>
+              </li>
 
-                    <!-- 頭貼 -->
-                    <img
-                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user02.jpg"
-                      alt="user02"
-                      class="position-absolute rounded-circle avatar"
-                    />
+              <!-- subwhat 行銷公司 -->
+              <li class="col">
+                <div
+                  class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+                >
+                  <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                    團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高10000個追蹤者，客戶體驗回饋很正面！
+                  </p>
+                  <p class="fw-bold">subwhat 行銷公司</p>
+                  <div class="d-flex justify-content-between">
+                    <p>Zoe 活動長</p>
+                    <ul class="list-unstyled d-flex">
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                    </ul>
                   </div>
-                </li>
 
-                <!-- 油土伯 -->
-                <li class="col">
-                  <div
-                    class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
-                  >
-                    <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
-                      經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～
-                    </p>
-                    <p class="fw-bold">油土伯</p>
-                    <div class="d-flex justify-content-between">
-                      <p>HowBig</p>
-                      <ul class="list-unstyled d-flex">
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                      </ul>
-                    </div>
+                  <!-- 頭貼 -->
+                  <img
+                    src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user02.jpg"
+                    alt="user02"
+                    class="position-absolute rounded-circle avatar"
+                  />
+                </div>
+              </li>
 
-                    <!-- 頭貼 -->
-                    <img
-                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user03.jpg"
-                      alt="user03"
-                      class="position-absolute rounded-circle avatar"
-                    />
+              <!-- 油土伯 -->
+              <li class="col">
+                <div
+                  class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+                >
+                  <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                    經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～
+                  </p>
+                  <p class="fw-bold">油土伯</p>
+                  <div class="d-flex justify-content-between">
+                    <p>HowBig</p>
+                    <ul class="list-unstyled d-flex">
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                    </ul>
                   </div>
-                </li>
-              </ul>
-            </div>
 
-            <div class="carousel-item">
-              <ul
-                class="row row-cols-1 row-cols-lg-3 list-unstyled flex-nowrap gx-3"
-              >
-                <!-- 清心寡慾設計公司 -->
-                <li class="col">
-                  <div
-                    class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
-                  >
-                    <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
-                      原來聊天機器人可以這麼有人性！團隊有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。
-                    </p>
-                    <p class="fw-bold">清心寡慾設計公司</p>
-                    <div class="d-flex justify-content-between">
-                      <p>Lina 執行長</p>
-                      <ul class="list-unstyled d-flex">
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                      </ul>
-                    </div>
+                  <!-- 頭貼 -->
+                  <img
+                    src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user03.jpg"
+                    alt="user03"
+                    class="position-absolute rounded-circle avatar"
+                  />
+                </div>
+              </li>
+            </ul>
+          </li>
 
-                    <!-- 頭貼 -->
-                    <img
-                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user01.jpg"
-                      alt="user01"
-                      class="position-absolute rounded-circle avatar"
-                    />
+          <li class="carousel-item">
+            <ul
+              class="row row-cols-1 row-cols-lg-3 list-unstyled flex-nowrap gx-3"
+            >
+              <!-- 清心寡慾設計公司 -->
+              <li class="col">
+                <div
+                  class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+                >
+                  <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                    原來聊天機器人可以這麼有人性！團隊有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。
+                  </p>
+                  <p class="fw-bold">清心寡慾設計公司</p>
+                  <div class="d-flex justify-content-between">
+                    <p>Lina 執行長</p>
+                    <ul class="list-unstyled d-flex">
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                    </ul>
                   </div>
-                </li>
 
-                <!-- subwhat 行銷公司 -->
-                <li class="col">
-                  <div
-                    class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
-                  >
-                    <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
-                      團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高10000個追蹤者，客戶體驗回饋很正面！
-                    </p>
-                    <p class="fw-bold">subwhat 行銷公司</p>
-                    <div class="d-flex justify-content-between">
-                      <p>Zoe 活動長</p>
-                      <ul class="list-unstyled d-flex">
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                      </ul>
-                    </div>
+                  <!-- 頭貼 -->
+                  <img
+                    src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user01.jpg"
+                    alt="user01"
+                    class="position-absolute rounded-circle avatar"
+                  />
+                </div>
+              </li>
 
-                    <!-- 頭貼 -->
-                    <img
-                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user02.jpg"
-                      alt="user02"
-                      class="position-absolute rounded-circle avatar"
-                    />
+              <!-- subwhat 行銷公司 -->
+              <li class="col">
+                <div
+                  class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+                >
+                  <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                    團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高10000個追蹤者，客戶體驗回饋很正面！
+                  </p>
+                  <p class="fw-bold">subwhat 行銷公司</p>
+                  <div class="d-flex justify-content-between">
+                    <p>Zoe 活動長</p>
+                    <ul class="list-unstyled d-flex">
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                    </ul>
                   </div>
-                </li>
 
-                <!-- 油土伯 -->
-                <li class="col">
-                  <div
-                    class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
-                  >
-                    <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
-                      經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～
-                    </p>
-                    <p class="fw-bold">油土伯</p>
-                    <div class="d-flex justify-content-between">
-                      <p>HowBig</p>
-                      <ul class="list-unstyled d-flex">
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                        <li class="me-2">
-                          <img
-                            src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
-                            alt="star icon"
-                          />
-                        </li>
-                      </ul>
-                    </div>
+                  <!-- 頭貼 -->
+                  <img
+                    src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user02.jpg"
+                    alt="user02"
+                    class="position-absolute rounded-circle avatar"
+                  />
+                </div>
+              </li>
 
-                    <!-- 頭貼 -->
-                    <img
-                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user03.jpg"
-                      alt="user03"
-                      class="position-absolute rounded-circle avatar"
-                    />
+              <!-- 油土伯 -->
+              <li class="col">
+                <div
+                  class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+                >
+                  <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                    經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～
+                  </p>
+                  <p class="fw-bold">油土伯</p>
+                  <div class="d-flex justify-content-between">
+                    <p>HowBig</p>
+                    <ul class="list-unstyled d-flex">
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                      <li class="me-2">
+                        <img
+                          src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                          alt="star icon"
+                        />
+                      </li>
+                    </ul>
                   </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+
+                  <!-- 頭貼 -->
+                  <img
+                    src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user03.jpg"
+                    alt="user03"
+                    class="position-absolute rounded-circle avatar"
+                  />
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
+
+      <!-- 手機板 輪播 -->
+      <div
+        id="carouselExampleIndicatorsMobile"
+        class="carousel slide d-block d-lg-none"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicatorsMobile"
+            data-bs-slide-to="0"
+            class="active mx-2"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicatorsMobile"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class="mx-2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicatorsMobile"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            class="mx-2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicatorsMobile"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+            class="mx-2"
+          ></button>
+        </div>
+        <ul class="carousel-inner py-7 container">
+          <li class="carousel-item active">
+            <div
+              class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+            >
+              <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                原來聊天機器人可以這麼有人性！團隊有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。
+              </p>
+              <p class="fw-bold">清心寡慾設計公司</p>
+              <div class="d-flex justify-content-between">
+                <p>Lina 執行長</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                </ul>
+              </div>
+
+              <!-- 頭貼 -->
+              <img
+                src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user01.jpg"
+                alt="user01"
+                class="position-absolute rounded-circle avatar"
+              />
+            </div>
+          </li>
+
+          <li class="carousel-item">
+            <div
+              class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+            >
+              <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高10000個追蹤者，客戶體驗回饋很正面！
+              </p>
+              <p class="fw-bold">subwhat 行銷公司</p>
+              <div class="d-flex justify-content-between">
+                <p>Zoe 活動長</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                </ul>
+              </div>
+
+              <!-- 頭貼 -->
+              <img
+                src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user02.jpg"
+                alt="user02"
+                class="position-absolute rounded-circle avatar"
+              />
+            </div>
+          </li>
+
+          <li class="carousel-item">
+            <div
+              class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+            >
+              <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～
+              </p>
+              <p class="fw-bold">油土伯</p>
+              <div class="d-flex justify-content-between">
+                <p>HowBig</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                </ul>
+              </div>
+
+              <!-- 頭貼 -->
+              <img
+                src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user03.jpg"
+                alt="user03"
+                class="position-absolute rounded-circle avatar"
+              />
+            </div>
+          </li>
+
+          <li class="carousel-item">
+            <div
+              class="card h-100 rounded-4 shadow border-0 px-3 px-lg-5 pt-7 pb-3 pb-lg-4 position-relative"
+            >
+              <p class="pb-3 pb-lg-4 mb-3 mb-lg-4 border-bottom">
+                原來聊天機器人可以這麼有人性！團隊有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。
+              </p>
+              <p class="fw-bold">清心寡慾設計公司</p>
+              <div class="d-flex justify-content-between">
+                <p>Lina 執行長</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                  <li class="me-2">
+                    <img
+                      src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_star.svg"
+                      alt="star icon"
+                    />
+                  </li>
+                </ul>
+              </div>
+
+              <!-- 頭貼 -->
+              <img
+                src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/user01.jpg"
+                alt="user01"
+                class="position-absolute rounded-circle avatar"
+              />
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 背景圓形 -->
+      <img
+        src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball03.svg"
+        alt="ball01"
+        class="position-absolute top-0 start-0 bgImage z--1"
+      />
     </section>
 
     <!-- 回到上方按鈕 -->
