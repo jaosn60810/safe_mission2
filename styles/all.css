@@ -9193,6 +9193,10 @@ textarea.form-control-lg {
   z-index: -1 !important;
 }
 
+.aspect-ratio-1-1 {
+  aspect-ratio: 1 !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -10122,6 +10126,10 @@ textarea.form-control-lg {
 
   .z-sm--1 {
     z-index: -1 !important;
+  }
+
+  .aspect-ratio-sm-1-1 {
+    aspect-ratio: 1 !important;
   }
 }
 @media (min-width: 768px) {
@@ -11054,6 +11062,10 @@ textarea.form-control-lg {
   .z-md--1 {
     z-index: -1 !important;
   }
+
+  .aspect-ratio-md-1-1 {
+    aspect-ratio: 1 !important;
+  }
 }
 @media (min-width: 992px) {
   .float-lg-start {
@@ -11984,6 +11996,10 @@ textarea.form-control-lg {
 
   .z-lg--1 {
     z-index: -1 !important;
+  }
+
+  .aspect-ratio-lg-1-1 {
+    aspect-ratio: 1 !important;
   }
 }
 @media (min-width: 1200px) {
@@ -12916,6 +12932,10 @@ textarea.form-control-lg {
   .z-xl--1 {
     z-index: -1 !important;
   }
+
+  .aspect-ratio-xl-1-1 {
+    aspect-ratio: 1 !important;
+  }
 }
 @media (min-width: 1400px) {
   .float-xxl-start {
@@ -13846,6 +13866,10 @@ textarea.form-control-lg {
 
   .z-xxl--1 {
     z-index: -1 !important;
+  }
+
+  .aspect-ratio-xxl-1-1 {
+    aspect-ratio: 1 !important;
   }
 }
 @media (min-width: 1200px) {
