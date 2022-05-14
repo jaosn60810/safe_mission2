@@ -76,6 +76,7 @@ $warning: $yellow !default;
 $danger: $red !default;
 $light: $gray-100 !default;
 $dark: $gray-900 !default;
+$lightgray: #f5f5f5;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -89,6 +90,7 @@ $theme-colors: (
   'danger': $danger,
   'light': $light,
   'dark': $dark,
+  'lightgray': $lightgray,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -351,7 +353,7 @@ $enable-cssgrid: false !default;
 $enable-button-pointers: true !default;
 $enable-rfs: true !default;
 $enable-validation-icons: true !default;
-$enable-negative-margins: false !default;
+$enable-negative-margins: true; //false !default;
 $enable-deprecation-messages: true !default;
 $enable-important-utilities: true !default;
 
@@ -389,6 +391,12 @@ $spacers: (
   6: $spacer * 2.5,
   7: $spacer * 3,
   8: $spacer * 3.5,
+  9: $spacer * 4,
+  10: $spacer * 4.5,
+  11: $spacer * 5,
+  12: $spacer * 5.5,
+  13: $spacer * 6,
+  14: $spacer * 6.5,
 ) !default;
 
 $negative-spacers: if(
