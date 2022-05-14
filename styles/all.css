@@ -8146,6 +8146,14 @@ textarea.form-control-lg {
   position: sticky !important;
 }
 
+.top-n100 {
+  top: -100% !important;
+}
+
+.top-n30 {
+  top: -30% !important;
+}
+
 .top-0 {
   top: 0 !important;
 }
@@ -8168,6 +8176,14 @@ textarea.form-control-lg {
 
 .top-100 {
   top: 100% !important;
+}
+
+.bottom-n100 {
+  bottom: -100% !important;
+}
+
+.bottom-n30 {
+  bottom: -30% !important;
 }
 
 .bottom-0 {
@@ -8194,6 +8210,14 @@ textarea.form-control-lg {
   bottom: 100% !important;
 }
 
+.start-n100 {
+  left: -100% !important;
+}
+
+.start-n30 {
+  left: -30% !important;
+}
+
 .start-0 {
   left: 0 !important;
 }
@@ -8216,6 +8240,14 @@ textarea.form-control-lg {
 
 .start-100 {
   left: 100% !important;
+}
+
+.end-n100 {
+  right: -100% !important;
+}
+
+.end-n30 {
+  right: -30% !important;
 }
 
 .end-0 {
@@ -10575,6 +10607,14 @@ textarea.form-control-lg {
     position: sticky !important;
   }
 
+  .bottom-sm-n100 {
+    bottom: -100% !important;
+  }
+
+  .bottom-sm-n30 {
+    bottom: -30% !important;
+  }
+
   .bottom-sm-0 {
     bottom: 0 !important;
   }
@@ -12441,6 +12481,14 @@ textarea.form-control-lg {
 
   .position-md-sticky {
     position: sticky !important;
+  }
+
+  .bottom-md-n100 {
+    bottom: -100% !important;
+  }
+
+  .bottom-md-n30 {
+    bottom: -30% !important;
   }
 
   .bottom-md-0 {
@@ -14311,6 +14359,14 @@ textarea.form-control-lg {
     position: sticky !important;
   }
 
+  .bottom-lg-n100 {
+    bottom: -100% !important;
+  }
+
+  .bottom-lg-n30 {
+    bottom: -30% !important;
+  }
+
   .bottom-lg-0 {
     bottom: 0 !important;
   }
@@ -16179,6 +16235,14 @@ textarea.form-control-lg {
     position: sticky !important;
   }
 
+  .bottom-xl-n100 {
+    bottom: -100% !important;
+  }
+
+  .bottom-xl-n30 {
+    bottom: -30% !important;
+  }
+
   .bottom-xl-0 {
     bottom: 0 !important;
   }
@@ -18045,6 +18109,14 @@ textarea.form-control-lg {
 
   .position-xxl-sticky {
     position: sticky !important;
+  }
+
+  .bottom-xxl-n100 {
+    bottom: -100% !important;
+  }
+
+  .bottom-xxl-n30 {
+    bottom: -30% !important;
   }
 
   .bottom-xxl-0 {
