@@ -8453,6 +8453,10 @@ textarea.form-control-lg {
   height: 100vh !important;
 }
 
+.min-vh-auto {
+  min-height: auto !important;
+}
+
 .min-vh-100 {
   min-height: 100vh !important;
 }
@@ -10662,6 +10666,14 @@ textarea.form-control-lg {
     border: 0 !important;
   }
 
+  .min-vh-sm-auto {
+    min-height: auto !important;
+  }
+
+  .min-vh-sm-100 {
+    min-height: 100vh !important;
+  }
+
   .flex-sm-fill {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 1 auto !important;
@@ -12536,6 +12548,14 @@ textarea.form-control-lg {
 
   .border-md-0 {
     border: 0 !important;
+  }
+
+  .min-vh-md-auto {
+    min-height: auto !important;
+  }
+
+  .min-vh-md-100 {
+    min-height: 100vh !important;
   }
 
   .flex-md-fill {
@@ -14414,6 +14434,14 @@ textarea.form-control-lg {
     border: 0 !important;
   }
 
+  .min-vh-lg-auto {
+    min-height: auto !important;
+  }
+
+  .min-vh-lg-100 {
+    min-height: 100vh !important;
+  }
+
   .flex-lg-fill {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 1 auto !important;
@@ -16288,6 +16316,14 @@ textarea.form-control-lg {
 
   .border-xl-0 {
     border: 0 !important;
+  }
+
+  .min-vh-xl-auto {
+    min-height: auto !important;
+  }
+
+  .min-vh-xl-100 {
+    min-height: 100vh !important;
   }
 
   .flex-xl-fill {
@@ -18166,6 +18202,14 @@ textarea.form-control-lg {
     border: 0 !important;
   }
 
+  .min-vh-xxl-auto {
+    min-height: auto !important;
+  }
+
+  .min-vh-xxl-100 {
+    min-height: 100vh !important;
+  }
+
   .flex-xxl-fill {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 1 auto !important;
@@ -20038,4 +20082,14 @@ textarea.form-control-lg {
 }
 .grayBanner {
   border-radius: 0px 0px 0px 300px;
+}
+
+.paymentIntroduction {
+  height: 470px;
+}
+
+@media (max-width: 991.98px) {
+  .paymentIntroduction {
+    height: 567px;
+  }
 }
