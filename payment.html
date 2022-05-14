@@ -69,7 +69,7 @@
     </section>
 
     <!-- 彈性選擇 -->
-    <section>
+    <section class="position-relative">
       <h3 class="h2 fw-bold text-center d-none d-lg-block mb-7">
         彈性選擇，提供您選擇最適合的方案
       </h3>
@@ -80,11 +80,11 @@
 
       <!-- 按鈕群 -->
       <ul
-        class="list-unstyled d-flex text-nowrap justify-content-lg-center overflow-auto mb-5 mb-lg-7"
+        class="list-unstyled d-flex text-nowrap justify-content-lg-center overflow-auto mb-5 mb-lg-7 programBtns"
       >
         <li class="mx-2">
           <a
-            class="btn btn-outline-primary rounded-pill px-3 px-lg-5 py-2"
+            class="btn btn-outline-primary rounded-pill px-3 px-lg-5 py-2 active"
             href="#"
             >10000位</a
           >
@@ -121,51 +121,62 @@
 
       <!-- 方案卡片 -->
       <div class="container">
-        <ul class="row list-unstyled justify-content-center">
+        <ul class="row list-unstyled justify-content-center gy-4">
+          <!-- 基本版 -->
           <li class="col-lg-4">
             <div class="card h-100 text-center rounded-4 shadow border-0">
-              <h3 class="fw-bold h4 lh-base py-3 border-bottom mb-5">基本版</h3>
+              <h3 class="fw-bold h4 lh-base py-3 border-bottom mb-4 mb-lg-5">
+                基本版
+              </h3>
 
               <h4 class="h6 lh-base">提供中小企業最必要的功能</h4>
-              <h4 class="h6 lh-base mb-5">
+              <h4 class="h6 lh-base mb-4 mb-lg-5">
                 完整建立分眾以達到精準的行銷自動化
               </h4>
 
               <!-- 灰色方框群 -->
-              <div class="row justify-content-between gx-0 mb-5">
+              <div class="row justify-content-between gx-0 mb-4 mb-lg-5">
                 <div class="col">
-                  <div class="bg-lightgray rounded-4 ms-5 px-5 py-4">
+                  <div
+                    class="bg-lightgray rounded-4 ms-3 ms-lg-5 px-4 px-lg-5 py-3 py-lg-4"
+                  >
                     <p class="fs-0">訂閱用戶數</p>
-                    <p class="fs-2 text-primary text-nowrap">
-                      10000<span class="fs-0"> 位</span>
+                    <p class="fs-3 text-primary text-nowrap">
+                      <span class="num">10000</span
+                      ><span class="fs-0"> 位</span>
                     </p>
                   </div>
                 </div>
+
                 <div
                   class="col-1 d-flex align-items-center justify-content-center"
                 >
                   <p class="h2">=</p>
                 </div>
+
                 <div class="col">
-                  <div class="bg-lightgray rounded-4 me-5 px-5 py-4">
+                  <div
+                    class="bg-lightgray rounded-4 me-3 me-lg-5 px-4 px-lg-5 py-3 py-lg-4"
+                  >
                     <p class="fs-0">試算每月的費用</p>
-                    <p class="fs-2 text-primary text-nowrap">
-                      600<span class="fs-0">位</span>
+                    <p class="fs-3 text-nowrap">
+                      <span>600</span> <span class="fs-0">位</span>
                     </p>
                   </div>
                 </div>
               </div>
 
               <!-- 商品內容 -->
-              <ul class="list-unstyled mx-5 mb-4">
+              <ul class="list-unstyled mx-4 mx-lg-5 mb-3 mb-lg-4">
                 <li class="d-flex mb-3">
                   <img
                     src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_check.svg"
                     alt="icon check"
                     class="me-3"
-                    class="me-3"
                   />
-                  <p class="mb-0">支援 Messenger / Instagram 或 LINE 渠道</p>
+                  <p class="fs-0 fs-lg-6 mb-0">
+                    支援 Messenger / Instagram 或 LINE 渠道
+                  </p>
                 </li>
                 <li class="d-flex mb-3">
                   <img
@@ -173,7 +184,7 @@
                     alt="icon check"
                     class="me-3"
                   />
-                  <p class="mb-0">10 個進階套件</p>
+                  <p class="fs-0 fs-lg-6 mb-0">10 個進階套件</p>
                 </li>
                 <li class="d-flex mb-3">
                   <img
@@ -181,7 +192,7 @@
                     alt="icon check"
                     class="me-3"
                   />
-                  <p class="mb-0">可設定 50 種分眾標籤</p>
+                  <p class="fs-0 fs-lg-6 mb-0">可設定 50 種分眾標籤</p>
                 </li>
                 <li class="d-flex mb-3">
                   <img
@@ -189,12 +200,12 @@
                     alt="icon check"
                     class="me-3"
                   />
-                  <p class="mb-0">客服人機轉接</p>
+                  <p class="fs-0 fs-lg-6 mb-0">客服人機轉接</p>
                 </li>
               </ul>
 
               <!-- 按鈕 -->
-              <div>
+              <div class="mb-4 mb-lg-6">
                 <a
                   class="btn btn-primary link-light rounded-pill px-3 px-lg-5 py-2"
                   href="#"
@@ -203,50 +214,60 @@
               </div>
             </div>
           </li>
+
+          <!-- 標準版 -->
           <li class="col-lg-4">
             <div class="card h-100 text-center rounded-4 shadow border-0">
-              <h3 class="fw-bold h4 lh-base py-3 border-bottom mb-5">基本版</h3>
+              <h3 class="fw-bold h4 lh-base py-3 border-bottom mb-4 mb-lg-5">
+                標準版
+              </h3>
 
-              <h4 class="h6 lh-base">提供中小企業最必要的功能</h4>
-              <h4 class="h6 lh-base mb-5">
-                完整建立分眾以達到精準的行銷自動化
-              </h4>
+              <h4 class="h6 lh-base">建立企業流量池，全通路數據整合與交換</h4>
+              <h4 class="h6 lh-base mb-4 mb-lg-5">高可靠性服務</h4>
 
               <!-- 灰色方框群 -->
-              <div class="row justify-content-between gx-0 mb-5">
+              <div class="row justify-content-between gx-0 mb-4 mb-lg-5">
                 <div class="col">
-                  <div class="bg-lightgray rounded-4 ms-5 px-5 py-4">
+                  <div
+                    class="bg-lightgray rounded-4 ms-3 ms-lg-5 px-4 px-lg-5 py-3 py-lg-4"
+                  >
                     <p class="fs-0">訂閱用戶數</p>
-                    <p class="fs-2 text-primary text-nowrap">
-                      10000<span class="fs-0"> 位</span>
+                    <p class="fs-3 text-primary text-nowrap">
+                      <span class="num">10000</span
+                      ><span class="fs-0"> 位</span>
                     </p>
                   </div>
                 </div>
+
                 <div
                   class="col-1 d-flex align-items-center justify-content-center"
                 >
                   <p class="h2">=</p>
                 </div>
+
                 <div class="col">
-                  <div class="bg-lightgray rounded-4 me-5 px-5 py-4">
+                  <div
+                    class="bg-lightgray rounded-4 me-3 me-lg-5 px-4 px-lg-5 py-3 py-lg-4"
+                  >
                     <p class="fs-0">試算每月的費用</p>
-                    <p class="fs-2 text-primary text-nowrap">
-                      600<span class="fs-0">位</span>
+                    <p class="fs-3 text-nowrap">
+                      <span> 1,600</span><span class="fs-0">位</span>
                     </p>
                   </div>
                 </div>
               </div>
 
               <!-- 商品內容 -->
-              <ul class="list-unstyled mx-5 mb-4">
+              <ul class="list-unstyled mx-4 mx-lg-5 mb-3 mb-lg-4">
                 <li class="d-flex mb-3">
                   <img
                     src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_check.svg"
                     alt="icon check"
                     class="me-3"
-                    class="me-3"
                   />
-                  <p class="mb-0">支援 Messenger / Instagram 或 LINE 渠道</p>
+                  <p class="fs-0 fs-lg-6 mb-0">
+                    支援 Messenger / Instagram 或 LINE 渠道
+                  </p>
                 </li>
                 <li class="d-flex mb-3">
                   <img
@@ -254,7 +275,7 @@
                     alt="icon check"
                     class="me-3"
                   />
-                  <p class="mb-0">10 個進階套件</p>
+                  <p class="fs-0 fs-lg-6 mb-0">10 個進階套件</p>
                 </li>
                 <li class="d-flex mb-3">
                   <img
@@ -262,7 +283,7 @@
                     alt="icon check"
                     class="me-3"
                   />
-                  <p class="mb-0">可設定 50 種分眾標籤</p>
+                  <p class="fs-0 fs-lg-6 mb-0">可設定 50 種分眾標籤</p>
                 </li>
                 <li class="d-flex mb-3">
                   <img
@@ -270,12 +291,12 @@
                     alt="icon check"
                     class="me-3"
                   />
-                  <p class="mb-0">客服人機轉接</p>
+                  <p class="fs-0 fs-lg-6 mb-0">客服人機轉接</p>
                 </li>
               </ul>
 
               <!-- 按鈕 -->
-              <div>
+              <div class="mb-4 mb-lg-6">
                 <a
                   class="btn btn-primary link-light rounded-pill px-3 px-lg-5 py-2"
                   href="#"
@@ -286,6 +307,13 @@
           </li>
         </ul>
       </div>
+
+      <!-- 背景黃色圓形 -->
+      <img
+        src="https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball03.svg"
+        alt="ball03"
+        class="w-50 w-lg-25 position-absolute top-50 start-0 translate-middle z--1"
+      />
     </section>
 
     <footer class="w-100 py-3 bg-lightgray text-center">
