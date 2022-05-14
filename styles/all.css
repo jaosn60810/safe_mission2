@@ -10119,6 +10119,10 @@ textarea.form-control-lg {
   font-family: var(--bs-font-monospace) !important;
 }
 
+.fs-0 {
+  font-size: 0.75rem !important;
+}
+
 .fs-1 {
   font-size: calc(1.375rem + 1.5vw) !important;
 }
@@ -10528,10 +10532,6 @@ textarea.form-control-lg {
 
 .z--1 {
   z-index: -1 !important;
-}
-
-.aspect-ratio-1-1 {
-  aspect-ratio: 1 !important;
 }
 
 @media (min-width: 576px) {
@@ -12413,10 +12413,6 @@ textarea.form-control-lg {
   .z-sm--1 {
     z-index: -1 !important;
   }
-
-  .aspect-ratio-sm-1-1 {
-    aspect-ratio: 1 !important;
-  }
 }
 @media (min-width: 768px) {
   .float-md-start {
@@ -14296,10 +14292,6 @@ textarea.form-control-lg {
 
   .z-md--1 {
     z-index: -1 !important;
-  }
-
-  .aspect-ratio-md-1-1 {
-    aspect-ratio: 1 !important;
   }
 }
 @media (min-width: 992px) {
@@ -16181,10 +16173,6 @@ textarea.form-control-lg {
   .z-lg--1 {
     z-index: -1 !important;
   }
-
-  .aspect-ratio-lg-1-1 {
-    aspect-ratio: 1 !important;
-  }
 }
 @media (min-width: 1200px) {
   .float-xl-start {
@@ -18065,10 +18053,6 @@ textarea.form-control-lg {
   .z-xl--1 {
     z-index: -1 !important;
   }
-
-  .aspect-ratio-xl-1-1 {
-    aspect-ratio: 1 !important;
-  }
 }
 @media (min-width: 1400px) {
   .float-xxl-start {
@@ -19948,10 +19932,6 @@ textarea.form-control-lg {
 
   .z-xxl--1 {
     z-index: -1 !important;
-  }
-
-  .aspect-ratio-xxl-1-1 {
-    aspect-ratio: 1 !important;
   }
 }
 @media (min-width: 1200px) {

@@ -647,14 +647,6 @@ $utilities: map-merge(
         '-1': -1,
       )
     ),    
-    "aspect-ratio": (
-      responsive: true,
-      property: aspect-ratio,
-      class: aspect-ratio,
-      values: (
-        '1-1': calc(1 / 1),
-      )
-    ),
   ),
   $utilities
 );
