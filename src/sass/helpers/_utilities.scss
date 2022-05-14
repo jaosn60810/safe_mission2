@@ -544,6 +544,7 @@ $utilities: map-merge(
     // scss-docs-end utils-color
     // scss-docs-start utils-bg-color
     "background-color": (
+      responsive: true,
       property: background-color,
       class: bg,
       local-vars: (
@@ -647,7 +648,7 @@ $utilities: map-merge(
       property: aspect-ratio,
       class: aspect-ratio,
       values: (
-        '1-1': 1/1,
+        '1-1': calc(1 / 1),
       )
     ),
   ),
