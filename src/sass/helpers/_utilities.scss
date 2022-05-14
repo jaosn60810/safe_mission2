@@ -75,6 +75,7 @@ $utilities: map-merge(
       values: $position-values
     ),
     "bottom": (
+      responsive: true,
       property: bottom,
       values: $position-values
     ),

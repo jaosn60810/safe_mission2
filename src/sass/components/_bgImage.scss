@@ -1,3 +1,4 @@
+// ==========================  index.html  =========================================
 // 好評如潮 左方黃色圓形
 .bgImage {
   transform: translate(12vw, 10vh);
@@ -7,4 +8,10 @@
   .bgImage {
     transform: translate(-50%, 50%);
   }
+}
+
+// ===================================  payment.html  =================================
+// 計費方式說明後面灰底
+.grayBanner {
+  border-radius: 0px 0px 0px 300px;
 }
