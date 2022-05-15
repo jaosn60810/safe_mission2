@@ -15,7 +15,7 @@
     <!-- css -->
     <link rel="stylesheet" href="./styles/all.css" />
     <!-- js -->
-    <script src="./src/app.js" defer></script>
+    <script src="./src/payment.js" defer></script>
   </head>
   <body>
     <!-- 導覽列 + header -->
@@ -123,7 +123,7 @@
       <div class="container">
         <ul class="row list-unstyled justify-content-center gy-4">
           <!-- 基本版 -->
-          <li class="col-lg-4">
+          <li class="col-lg-5">
             <div class="card h-100 text-center rounded-4 shadow border-0">
               <h3 class="fw-bold h4 lh-base py-3 border-bottom mb-4 mb-lg-5">
                 基本版
@@ -141,8 +141,8 @@
                     class="bg-lightgray rounded-4 ms-3 ms-lg-5 px-4 px-lg-5 py-3 py-lg-4"
                   >
                     <p class="fs-0">訂閱用戶數</p>
-                    <p class="fs-3 text-primary text-nowrap">
-                      <span class="num">10000</span
+                    <p class="text-primary text-nowrap">
+                      <span class="fs-2 num">10000</span
                       ><span class="fs-0"> 位</span>
                     </p>
                   </div>
@@ -159,8 +159,9 @@
                     class="bg-lightgray rounded-4 me-3 me-lg-5 px-4 px-lg-5 py-3 py-lg-4"
                   >
                     <p class="fs-0">試算每月的費用</p>
-                    <p class="fs-3 text-nowrap">
-                      <span>600</span> <span class="fs-0">位</span>
+                    <p class="text-nowrap">
+                      <span id="basicMonthlyCost" class="fs-2">600</span>
+                      <span class="fs-0">元</span>
                     </p>
                   </div>
                 </div>
@@ -216,7 +217,7 @@
           </li>
 
           <!-- 標準版 -->
-          <li class="col-lg-4">
+          <li class="col-lg-5">
             <div class="card h-100 text-center rounded-4 shadow border-0">
               <h3 class="fw-bold h4 lh-base py-3 border-bottom mb-4 mb-lg-5">
                 標準版
@@ -232,8 +233,8 @@
                     class="bg-lightgray rounded-4 ms-3 ms-lg-5 px-4 px-lg-5 py-3 py-lg-4"
                   >
                     <p class="fs-0">訂閱用戶數</p>
-                    <p class="fs-3 text-primary text-nowrap">
-                      <span class="num">10000</span
+                    <p class="text-primary text-nowrap">
+                      <span class="fs-2 num">10000</span
                       ><span class="fs-0"> 位</span>
                     </p>
                   </div>
@@ -250,8 +251,9 @@
                     class="bg-lightgray rounded-4 me-3 me-lg-5 px-4 px-lg-5 py-3 py-lg-4"
                   >
                     <p class="fs-0">試算每月的費用</p>
-                    <p class="fs-3 text-nowrap">
-                      <span> 1,600</span><span class="fs-0">位</span>
+                    <p class="text-nowrap">
+                      <span id="standardMonthlyCost" class="fs-2">1,600</span>
+                      <span class="fs-0">元</span>
                     </p>
                   </div>
                 </div>
