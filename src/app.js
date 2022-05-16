@@ -35,9 +35,14 @@ programBtnGroup.addEventListener('click', (e) => {
       // 去除字串裡的 >
       formatNum = newNum.slice(1);
       biggerIcon = '>';
+
       // 訂閱用戶數下的數字加上 > 會太大，換小一點的字
       item.classList.remove('fs-2');
       item.classList.add('fs-3');
+    } else {
+      // 回復原本大小
+      item.classList.add('fs-2');
+      item.classList.remove('fs-3');
     }
 
     // 更改 試算每月的費用數字
