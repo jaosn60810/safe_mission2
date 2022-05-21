@@ -648,7 +648,15 @@ $utilities: map-merge(
       values: (
         '-1': -1,
       )
-    ),    
+    ),
+    "scale": (
+      responsive: true,
+      property: transform,
+      class: scale,
+      values: (
+        '60': scale(0.6),
+      )
+    ),   
   ),
   $utilities
 );
